@@ -69,7 +69,7 @@ function Pricing() {
                             <p>Unlimited access</p>
                             <ul className='pricing__container-features'>
                                 <li> Introduction to markets</li>
-                                <li>Technical charting patterns</li>
+                                <li>Technical patterns</li>
                                 <li>Insigt into our trading strategy</li>
                                 
 
@@ -85,11 +85,11 @@ function Pricing() {
                   </div>
                             <h3>Fundamentals Course</h3>
                             <h4>$399</h4>
-                            <p>unlimited access</p>
+                            <p>Unlimited access</p>
                             <ul className='pricing__container-features'>
                                 <li> Technicals vs Fundamentals</li>
-                                <li>Felix personal fundamental strategy</li>
-                                <li>Insights into what risk on and risk off is</li>
+                                <li>Felix fundamental strategy</li>
+                                <li>Insights on risk on and risk off </li>
                                 
                             </ul>
                             <Button buttonSize='btn--wide' buttonColor='blue'>Choose plan </Button>
