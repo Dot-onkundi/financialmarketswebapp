@@ -3,7 +3,7 @@ import { Button } from './Button';
 import './Pricing.css';
 import { FaFire } from 'react-icons/fa';
 import { BsXDiamondFill } from 'react-icons/bs';
-import {MdShowChart} from 'react-icons/md'
+// import {MdShowChart} from 'react-icons/md'
 import { GiChart } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import { Link } from 'react-router-dom';
@@ -30,7 +30,7 @@ function Pricing() {
                                 <li> Live market news</li>
 
                             </ul>
-                            <Button buttonSize='btn--wide' buttonColor='primary'>Choose plan </Button>
+                            <Button buttonSize='btn--wide' buttonColor='primary'>Select </Button>
 
 
 
@@ -52,7 +52,7 @@ function Pricing() {
                                 <li> Unlimited resets</li>
 
                             </ul>
-                            <Button buttonSize='btn--wide' buttonColor='blue'>Choose plan </Button>
+                            <Button buttonSize='btn--wide' buttonColor='blue'>Select </Button>
 
 
 
@@ -71,13 +71,14 @@ function Pricing() {
                                 <li> Introduction to markets</li>
                                 <li>Technical patterns</li>
                                 <li>Insigt into our trading strategy</li>
-                                
+                                <li> Technicals vs Fundamentals</li>
+
 
                             </ul>
-                            <Button buttonSize='btn--wide' buttonColor='primary'>Choose plan </Button>
+                            <Button buttonSize='btn--wide' buttonColor='primary'>Select </Button>
                         </div>
             </Link>
-            <Link to='/sign-up' className='pricing__container-card'>
+            {/* <Link to='/sign-up' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <MdShowChart />
@@ -97,7 +98,7 @@ function Pricing() {
 
 
                         </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

@@ -52,10 +52,31 @@ function Footer() {
 
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to={
+                '//www.youtube.com/@felixonkundi9971/featured'
+              }
+              target='_blank'
+              aria-label='Instagram'
+              >Instagram</Link>
+            <Link to={
+                '//www.youtube.com/@felixonkundi9971/featured'
+              }
+              target='_blank'
+              aria-label='Facebook'
+              >Facebook</Link>
+            <Link 
+              to={
+                '//www.youtube.com/@felixonkundi9971/featured'
+              }
+              target='_blank'
+              aria-label='Youtube'
+              >Youtube</Link>
+            <Link to={
+                '//twitter.com/Onkundi_Felix'
+              }
+              target='_blank'
+              aria-label='Twitter'
+              >Twitter</Link>
           </div>
         </div>
       </div>
@@ -71,7 +92,7 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//onkundifelixportfolio.netlify.app'
               target='_blank'
               aria-label='Facebook'
             >
@@ -79,7 +100,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//onkundifelixportfolio.netlify.app'
               target='_blank'
               aria-label='Instagram'
             >
@@ -97,7 +118,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//twitter.com/Onkundi_Felix'
               target='_blank'
               aria-label='Twitter'
             >
@@ -105,7 +126,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//onkundifelixportfolio.netlify.app'
               target='_blank'
               aria-label='LinkedIn'
             >
