@@ -126,7 +126,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='//onkundifelixportfolio.netlify.app'
+              to='//www.linkedin.com/in/onkundifelix'
               target='_blank'
               aria-label='LinkedIn'
             >
